@@ -1,0 +1,30 @@
+/* Custom styles for the image carousel */
+
+/* Center the carousel vertically */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Adjust the size of the carousel items */
+.carousel-item {
+  height: 70vh; /* Adjust the height as needed */
+}
+
+/* Style the caption */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: #fff; /* Text color */
+  border-radius: 5px;
+  padding: 20px;
+  text-align: right;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  right: 20px; /* Adjust the distance from the right */
+}
+
+/* Style the button */
+.carousel-caption button {
+  margin-top: 10px; /* Adjust the spacing between text and button */
+}

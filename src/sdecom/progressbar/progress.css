@@ -1,0 +1,31 @@
+/* App.css */
+.progress-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+
+  
+
+}
+
+.progress {
+  width: 650px;
+  height: 20px;
+  background-color: #333; 
+  border: 1px solid black;
+}
+
+.progress-inner {
+  background-color: #f7f;
+  height: 100%;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}

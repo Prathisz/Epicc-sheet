@@ -1,0 +1,73 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  padding: 10px;
+  background-color: #333232; /* Optional background color */
+}
+
+.logo img {
+  max-height: 40px; /* Adjust the max-height as needed */
+}
+
+.company-name {
+  flex-grow: 1;
+  text-align: center;
+  margin: 10px; /* Add margin for better spacing on smaller screens */
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+ 
+ 
+}
+.nav-buttons .login-button {
+  background-color: #4caf50; /* Green color, you can replace it with your preferred color */
+  color: white; /* Text color */
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.nav-buttons .icon-button {
+  background-color: #738173; /* Green color, you can replace it with your preferred color */
+  color: white; /* Text color */
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50;
+
+  border-radius: 5px;
+}
+.nav-buttons button {
+  margin-left: 10px; /* Add margin between buttons */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .company-name {
+    margin: 10px 0;
+  }
+
+  .nav-buttons {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,39 @@
+/* Navbarr.css */
+.navbar-container {
+    background-color: #333232;
+  }
+  
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Add animation effect */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in-down {
+    animation: fadeInDown 0.5s ease-out;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .toolbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .toolbar .fade-in-down {
+      margin-top: 10px;
+    }
+  }
+  

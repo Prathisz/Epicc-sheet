@@ -1,0 +1,43 @@
+/* FooterComponent.css */
+
+.footer {
+    background-color: #321616;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .company-info {
+    margin-bottom: 20px;
+  }
+  
+  .company-info img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .company-info h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+  }
+  
+  /* Add styles for social media icons (Font Awesome, for example) */
+  
+  
