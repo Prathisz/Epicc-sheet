@@ -13,6 +13,7 @@ export default function Gbox1() {
   const handleClick = () => {
     setOpen(!open);
   };
+  
 
   return (
     <List sx={{ bgcolor: 'background.paper',width:'950px',border:'1px solid',marginLeft:'50px' }}>

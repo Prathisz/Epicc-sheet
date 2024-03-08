@@ -18,6 +18,7 @@ const Card = ({ title, level, image, link }) => {
   );
 };
 
+
 // App component
 const CarddApp = () => {
   return (

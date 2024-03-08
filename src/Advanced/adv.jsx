@@ -25,6 +25,7 @@ const ProgressBar = () => {
     setWidth(newWidth);
   };
 
+  
   useEffect(() => {
     const checkboxes = document.querySelectorAll(".myCheckBoxadv");
 

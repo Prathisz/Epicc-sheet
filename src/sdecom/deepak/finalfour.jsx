@@ -23,6 +23,7 @@ const ProgressBarfour = () => {
     setWidth(newWidth);
   };
 
+  
   useEffect(() => {
     const checkboxes = document.querySelectorAll(".myCheckBoxfour");
 

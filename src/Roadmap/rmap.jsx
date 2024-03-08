@@ -26,6 +26,7 @@ const RoadmapBox = ({ title, days, link, color }) => {
   );
 };
 
+
 const Rmap = () => {
   return (
     <>

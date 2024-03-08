@@ -21,6 +21,7 @@ const ProgressBar = () => {
       }
     });
 
+    
     const newWidth = checkedCount * checklistProgressInterval;
     setWidth(newWidth);
   };

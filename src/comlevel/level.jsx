@@ -7,6 +7,7 @@ import { Stack } from '@mui/material'
 import CarddApp from '../cardcompon/cardcom/carddApp'
 // import IntCardApp from '../cardcompon/intcard/'
 import ResponsiveAppBar from '../component/Nav'
+
 function Level() {
   return (
     <>

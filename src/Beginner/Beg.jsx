@@ -7,6 +7,7 @@ import { faStickyNote } from '@fortawesome/free-solid-svg-icons';
 // import '../../commanage/YourTableComponent.css';
 import '../commanage/YourTableComponent.css' ;
 
+
 const ProgressBar = () => {
   const [width, setWidth] = useState(0);
   const checklistProgressInterval = 100 / 5; // Assuming there are 5 checkboxes

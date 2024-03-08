@@ -15,4 +15,5 @@ const CourseCard = ({ imageUrl, title, description, buttonText, onButtonClick })
   );
 };
 
+
 export default CourseCard;
