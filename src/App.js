@@ -1,6 +1,6 @@
 import "./App.css";
 import { Box } from "@mui/material";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 import Coursepage from "./commanage/coursepage";
 import Navbarr from "./sdecom/webnav/webnav";
